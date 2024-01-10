@@ -1,0 +1,5 @@
+CREATE DATABASE zachsDb;
+
+USE zachsDb;
+CREATE TABLE batch (batcbatchhID INT NOT NULL,batchType VARCHAR(255) NOT NULL ,BatchTime VARCHAR(255) NOT NULL);
+CREATE TABLE participant (partID INT NOT NULL ,partName VARCHAR(255) NOT NULL,partAge INT NOT NULL,partPhoneNumber VARCHAR(255) NOT NULL,BatchInt INT NOT NULL);
